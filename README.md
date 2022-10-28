@@ -9,9 +9,9 @@
 ![image](https://user-images.githubusercontent.com/82042336/198649860-826d7b38-0e00-4cfe-ad8f-ef6177f43c7c.png)
 
 ## 1.代码结构  
-./Energy_Anomaly_Detection  
-│  clf1.torch                                                            # 模型文件  
-│  data_anls.ipynb                                                       # 数据分析脚本  
+&nbsp;&nbsp;./Energy_Anomaly_Detection  
+&nbsp;&nbsp;│  clf1.torch                                                            # 模型文件  
+&nbsp;&nbsp;│  data_anls.ipynb                                                       # 数据分析脚本  
 │  demo_resnet_epoch532_lr0.001_dropout0.25_auc0.8998.ipynb              # jupyter版本训练代码  
 │  loss.png                                                              # loss曲线  
 │  myutils.py                                                            # 配置文件  
@@ -54,12 +54,12 @@ The experiment code is written in Python 3 and built on a number of Python packa
 - numpy==1.21.5  
 
 ## 3.两种形式执行训练，生成比赛要求的csv文件  
-### &nbsp;&nbsp;3.1 建议采用train.py执行训练  
+### &nbsp;&nbsp;&nbsp;&nbsp;3.1 建议采用train.py执行训练  
 ```python  
 python train.py
 python train.py  --model_name ResNet --train  Train  --test Test_A  --epoch 532  --batch_size 256 
 ```
-### &nbsp;&nbsp;3.2 通过demo_resnet_epoch532_lr0.001_dropout0.25_auc0.8998.ipynb执行训练  
+### &nbsp;&nbsp;&nbsp;&nbsp;3.2 通过demo_resnet_epoch532_lr0.001_dropout0.25_auc0.8998.ipynb执行训练  
 
 
 
