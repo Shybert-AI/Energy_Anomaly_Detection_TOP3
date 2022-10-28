@@ -9,34 +9,34 @@
 ![image](https://user-images.githubusercontent.com/82042336/198649860-826d7b38-0e00-4cfe-ad8f-ef6177f43c7c.png)
 
 ## 1.代码结构  
-&nbsp;&nbsp;./Energy_Anomaly_Detection  
-&nbsp;&nbsp;│  clf1.torch                                                            # 模型文件  
-&nbsp;&nbsp;│  data_anls.ipynb                                                       # 数据分析脚本  
-│  demo_resnet_epoch532_lr0.001_dropout0.25_auc0.8998.ipynb              # jupyter版本训练代码  
-│  loss.png                                                              # loss曲线  
-│  myutils.py                                                            # 配置文件  
-│  README.md                                                             # 中文用户手册  
-│  requirements.txt                                                      # 依赖环境  
-│  Revisiting Deep Learning Models for Tabular Data.pdf   
-│  submision.csv                                                         # 比赛要求的csv文件  
-│  train.py                                                              # 在jupyter版本训练代码进行规整的训练脚本  
-│  train_optuna.ipynb                                                    # optuna自动化调参  
-│  能源AI挑战赛_异常检测赛.pptx                                      
-├─log                                                                    # 日志类文件夹  
-|      train.log                                                         # 训练日志文件                                                        
-├─Test_A                                                                 # 验证数据（只存在样例数据，训练时需拷贝全部数据）  
-│      0.pkl                                                             
-│      1.pkl                                                                                                                        
-│      ...                                                               
-│      ...                                                               
-│      ...                                                               
-│                                                                        
-├─Train                                                                  # 训练数据（只存在样例数据，训练时需拷贝全部数据）  
-│      0.pkl                                                             
-│      1.pkl                                                                                                                        
-│      ...                                                               
-│      ...                                                               
-│      ...                                                               
+&nbsp;&nbsp;&nbsp;&nbsp;./Energy_Anomaly_Detection  
+&nbsp;&nbsp;&nbsp;&nbsp;│  clf1.torch                                                            # 模型文件  
+&nbsp;&nbsp;&nbsp;&nbsp;│  data_anls.ipynb                                                       # 数据分析脚本  
+&nbsp;&nbsp;&nbsp;&nbsp;│  demo_resnet_epoch532_lr0.001_dropout0.25_auc0.8998.ipynb              # jupyter版本训练代码  
+&nbsp;&nbsp;&nbsp;&nbsp;│  loss.png                                                              # loss曲线  
+&nbsp;&nbsp;&nbsp;&nbsp;│  myutils.py                                                            # 配置文件  
+&nbsp;&nbsp;&nbsp;&nbsp;│  README.md                                                             # 中文用户手册  
+&nbsp;&nbsp;&nbsp;&nbsp;│  requirements.txt                                                      # 依赖环境  
+&nbsp;&nbsp;&nbsp;&nbsp;│  Revisiting Deep Learning Models for Tabular Data.pdf   
+&nbsp;&nbsp;&nbsp;&nbsp;│  submision.csv                                                         # 比赛要求的csv文件  
+&nbsp;&nbsp;&nbsp;&nbsp;│  train.py                                                              # 在jupyter版本训练代码进行规整的训练脚本  
+&nbsp;&nbsp;&nbsp;&nbsp;│  train_optuna.ipynb                                                    # optuna自动化调参  
+&nbsp;&nbsp;&nbsp;&nbsp;│  能源AI挑战赛_异常检测赛.pptx                                      
+&nbsp;&nbsp;&nbsp;&nbsp;├─log                                                                    # 日志类文件夹  
+&nbsp;&nbsp;&nbsp;&nbsp;|      train.log                                                         # 训练日志文件                                                        
+&nbsp;&nbsp;&nbsp;&nbsp;├─Test_A                                                                 # 验证数据（只存在样例数据，训练时需拷贝全部数据）  
+&nbsp;&nbsp;&nbsp;&nbsp;│      0.pkl                                                             
+&nbsp;&nbsp;&nbsp;&nbsp;│      1.pkl                                                                                                                        
+&nbsp;&nbsp;&nbsp;&nbsp;│      ...                                                               
+&nbsp;&nbsp;&nbsp;&nbsp;│      ...                                                               
+&nbsp;&nbsp;&nbsp;&nbsp;│      ...                                                               
+&nbsp;&nbsp;&nbsp;&nbsp;│                                                                        
+&nbsp;&nbsp;&nbsp;&nbsp;├─Train                                                                  # 训练数据（只存在样例数据，训练时需拷贝全部数据）  
+&nbsp;&nbsp;&nbsp;&nbsp;│      0.pkl                                                             
+&nbsp;&nbsp;&nbsp;&nbsp;│      1.pkl                                                                                                                        
+&nbsp;&nbsp;&nbsp;&nbsp;│      ...                                                               
+&nbsp;&nbsp;&nbsp;&nbsp;│      ...                                                               
+&nbsp;&nbsp;&nbsp;&nbsp;│      ...                                                               
 ## 2.环境依赖
 The experiment code is written in Python 3 and built on a number of Python packages:    
 - delu==0.0.13  
