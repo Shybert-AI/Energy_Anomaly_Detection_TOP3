@@ -69,7 +69,7 @@ python train.py  --model_name ResNet --train  Train  --test Test_A  --epoch 532 
 ### &nbsp;&nbsp;&nbsp;&nbsp;3.2 demo_resnet_epoch532_lr0.001_dropout0.25_auc0.8998.ipynb执行训练  
 
 # 六.总结  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.模型只用到了是电池数据的前7列的最后一行数据和里程数，未考虑到数据的时序性。因此还存在改进点，比如将[256,8]的特征压缩到[1,8]或者用[256,8]的特征进行分类等等。  `当然这只是猜想`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.模型只用到了是电池数据的前7列的最后一行数据和里程数，未考虑到数据的时序性。因此还存在改进点，比如将[256,8]的特征压缩到[1,8]或者用[256,8]的特征进行分类等等。 <span style="color: green"> `当然这只是猜想` </span> :smiling_imp:   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.loss曲线发现趋势存在震荡,因为模型的超参数是通过手动调节的。因此设计了一个脚本train_optuna.ipynb，进行自动化调节模型的超参数，模型的超参数有学习率、batch_size、隐藏层的个数、dropout、网络结构的层数等一系列参数。 （由于时间等一系列原因导致搁置了。。。。。）
 
 
