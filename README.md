@@ -12,7 +12,9 @@
 ![image](https://user-images.githubusercontent.com/82042336/198660038-d466bb59-74af-4d43-8f41-86edadc9021d.png)
 
 ![image](https://user-images.githubusercontent.com/82042336/198649860-826d7b38-0e00-4cfe-ad8f-ef6177f43c7c.png)
-
+# 特征分析  
+模型只用到了是电池数据的前7列和里程数，未考虑到数据的时序性。  
+# 模型构建及训练     
 ## 1.代码结构  
 &nbsp;&nbsp;&nbsp;&nbsp;./Energy_Anomaly_Detection  
 &nbsp;&nbsp;&nbsp;&nbsp;│  clf1.torch                                                            # 模型文件  
