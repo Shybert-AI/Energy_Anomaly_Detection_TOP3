@@ -4,7 +4,8 @@
 # 赛题背景
   汽车产业正在经历巨大变革，新能源汽车市场规模持续扩大，电池安全问题日益引发重视。 电池异常检测面临着汽车数据质量差，检出率低，误报率高，大量无效报警无法直接自动化运维等问题。  
   为了更好的检验电池安全问题，比赛通过募集优秀异常检测方案，使用特征提取、参数优化、异常对比等手段对实车数据进行处理，优化异常检测结果，以便更好的应用于车辆预警、故障模式识别等多种场景。  
-# 贴一个方案图和比赛结果，方案具体的选择及及其实验结果，可以查看[博客](https://blog.csdn.net/weixin_43509698/article/details/127417008)和[能源AI挑战赛_异常检测赛.pptx](https://github.com/Shybert-AI/Energy_Anomaly_Detection_TOP3/files/9889316/AI._.pptx)。如果觉得可以，点个小星星:blush::blush:，多谢。
+
+### 贴一个方案图和比赛结果，本文通过实验验证发现表格ResNet结构网络在处理电池数据异常检测效果明显优于MLP和FTTransformer网络，可以查看[博客](https://blog.csdn.net/weixin_43509698/article/details/127417008)和[能源AI挑战赛_异常检测赛.pptx](https://github.com/Shybert-AI/Energy_Anomaly_Detection_TOP3/files/9889316/AI._.pptx)。如果觉得可以，点个小星星:blush::blush:，多谢。
 ![image](https://user-images.githubusercontent.com/82042336/198660038-d466bb59-74af-4d43-8f41-86edadc9021d.png)
 
 ![image](https://user-images.githubusercontent.com/82042336/198649860-826d7b38-0e00-4cfe-ad8f-ef6177f43c7c.png)
@@ -55,7 +56,7 @@ The experiment code is written in Python 3 and built on a number of Python packa
 - numpy==1.21.5  
 
 ## 3.两种形式执行训练，生成比赛要求的csv文件  
-### &nbsp;&nbsp;&nbsp;&nbsp;3.1 建议采用train.py执行训练  
+### &nbsp;&nbsp;&nbsp;&nbsp;3.1 train.py执行训练，可以通过修改model_name参数，进行MLP、ResNet、FTTransformer的实验。  
 ```python  
 python train.py
 python train.py  --model_name ResNet --train  Train  --test Test_A  --epoch 532  --batch_size 256 
