@@ -62,7 +62,7 @@ The experiment code is written in Python 3 and built on a number of Python packa
 python train.py
 python train.py  --model_name ResNet --train  Train  --test Test_A  --epoch 532  --batch_size 256 
 ```
-### &nbsp;&nbsp;&nbsp;&nbsp;3.2 通过demo_resnet_epoch532_lr0.001_dropout0.25_auc0.8998.ipynb执行训练  
+### &nbsp;&nbsp;&nbsp;&nbsp;3.2 demo_resnet_epoch532_lr0.001_dropout0.25_auc0.8998.ipynb执行训练  
 
 
 
