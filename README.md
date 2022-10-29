@@ -7,6 +7,8 @@
 
 # 比赛方案
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;贴一个方案图和比赛结果，本文通过实验验证发现表格ResNet结构网络在处理电池数据异常检测效果明显优于MLP和FTTransformer网络，可以查看[博客](https://blog.csdn.net/weixin_43509698/article/details/127417008)和[能源AI挑战赛_异常检测赛.pptx](https://github.com/Shybert-AI/Energy_Anomaly_Detection_TOP3/files/9889316/AI._.pptx)。如果觉得可以，点个小星星:blush::blush:，多谢。
+
+
 ![image](https://user-images.githubusercontent.com/82042336/198660038-d466bb59-74af-4d43-8f41-86edadc9021d.png)
 
 ![image](https://user-images.githubusercontent.com/82042336/198649860-826d7b38-0e00-4cfe-ad8f-ef6177f43c7c.png)
